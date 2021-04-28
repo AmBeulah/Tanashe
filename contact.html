@@ -65,7 +65,7 @@
 
 <section class="form1">
   <div class="row ">
-    <form class="col s12 l8 formstyle">
+    <form name="contact" class="col s12 l8 formstyle" method="POST" data-netlify="true">
       <div class="row">
         <div class="input-field col s6">
           <input  id="first_name" type="text" class="validate">
@@ -97,6 +97,12 @@
         </div>
       </div>
       
+      <div class="row">
+        <div class="input-field col s12">
+          
+          <div data-netlify-recaptcha="true" ></div>
+        </div>
+      </div>
       <button class="btn-large waves-effect waves-light subbut send" type="submit" name="action">Submit
         <i class="material-icons right">send</i>
       </button>
