@@ -63,82 +63,80 @@
             
        </section>
 
-<section class="form1">
-  <div class="row ">
-    <form name="contact" class="col s12 l8 formstyle" method="POST" data-netlify="true">
-      <div class="row">
-        <div class="input-field col s6">
-          <input  id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
+      </section>
 
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="input_text" type="number" data-length="15">
-          <label for="input_text">Phone number</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-          <label for="icon_prefix2">Message</label>
-        </div>
-      </div>
+      <section class="form1">
+        <div class="row ">
+          <form name="contact" class="col s12 l8 formstyle" method="POST" action="https://formspree.io/f/mdoyaewe">
+            <input type="hidden" name="_subject" value="Tanase Food Form"> 
       
-      <div class="row">
-        <div class="input-field col s12">
-          
-          <div data-netlify-recaptcha="true" ></div>
-        </div>
-      </div>
-      <button class="btn-large waves-effect waves-light subbut send" type="submit" name="action">Submit
-        <i class="material-icons right">send</i>
-      </button>
-      
-    </form>
-
-
-    <div class="col s12 l4"> 
- <!--
-  Sizes:
-  tiny: 1rem
-  small: 2rem
-  medium: 4rem
-  large: 6rem
-  -->
-  <div class="givepadd">
-  <div>
-  <i class="large material-icons" style="font-size: 60px; color: #14081b;">location_on</i>
-  <span>Lagos Nigeria</span>
-</div>
-<div>
-  <i class="large material-icons " style="font-size: 60px; color: #14081b;">phone_iphone</i>
-  <span>xxxxxxxxxxx</span>
-</div>
-
-<div>
-  <i class="large material-icons" style="font-size: 60px; color: #14081b;">email</i>
-  <span>Info@tansovate.com</span>
-</div>
-</div>
-
-
+            <div class="row">
+              <div class="input-field col s6">
+                <input  id="first_name" type="text" class="validate" name="firstname">
+                <label for="first_name">First Name</label>
               </div>
-        
-</section>
-
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" name="lastname">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="input_text" type="number" data-length="15" name="phone">
+                <label for="input_text">Phone number</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate"  name="_replyto">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea" name="message"></textarea>
+                <label for="icon_prefix2">Message</label>
+              </div>
+            </div>
+            
+            <button class="btn-large waves-effect waves-light subbut send" type="submit" name="action" value="Send">Submit
+              <i class="material-icons right">send</i>
+            </button>
+            
+          </form>
+      
+      
+          <div class="col s12 l4"> 
+       <!--
+        Sizes:
+        tiny: 1rem
+        small: 2rem
+        medium: 4rem
+        large: 6rem
+        -->
+        <div class="givepadd">
+        <div>
+        <i class="large material-icons" style="font-size: 60px; color: #14081b;">location_on</i>
+        <span>Lagos Nigeria</span>
+      </div>
+      <div>
+        <i class="large material-icons " style="font-size: 60px; color: #14081b;">phone_iphone</i>
+        <span>xxxxxxxxxxx</span>
+      </div>
+      
+      <div>
+        <i class="large material-icons" style="font-size: 60px; color: #14081b;">email</i>
+        <span>Info@tansovate.com</span>
+      </div>
+      </div>
+      
+      
+                    </div>
+              
+      </section>
+      
 <hr id="hr1">
 
 <section>
